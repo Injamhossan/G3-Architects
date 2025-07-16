@@ -1,0 +1,71 @@
+
+.work-sans-normal {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.text-gray {
+  color: #424242;
+}
+.text-light-gray {
+  color: #727272;
+}
+/* Navbar design */
+.bg-color {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin-right: 230px;
+}
+
+.nav-item a{
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 18px;
+}
+.navbar h3 {
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: 238px;
+}
+.banner h1 {
+  font-size: 65px;
+  font-weight: bold;
+  text-align: center;
+  margin: 25px;
+}
+.banner p {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.btn-primary {
+  font-size: 20px;
+  padding: 25px 24px 20px 20px;
+  background-color: #FF900E;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  margin-left: 870px;
+  margin-top: 32px;
+}
+.banner img {
+  height: 700px;
+  width: 1440px;
+  border-radius: 8px;
+  margin-left: 240px;
+  margin-top: 50px;
+  margin-bottom: 45px;
+}
